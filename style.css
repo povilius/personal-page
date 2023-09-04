@@ -6,7 +6,7 @@
 body {
   margin: 0;
   background-color: white;
-  max-width: 1000px;
+  max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient( white, #a3a3a3);
@@ -37,7 +37,7 @@ html {
   padding: 20px 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .povilius-logo {
@@ -54,7 +54,7 @@ html {
   transition-duration: 3ms;
 }
 
-.nav-item a:not(:hover) {
+.nav-item a:hover {
   text-decoration: line-through;
   cursor: pointer;
 }
